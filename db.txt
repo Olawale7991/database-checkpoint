@@ -1,0 +1,40 @@
+<!-- Slide 1: Title Slide -->
+# MongoDB vs. SQL Databases
+
+<!-- Slide 2: Introduction to SQL Databases -->
+# SQL Databases
+- **Relational Databases**: SQL databases are based on a relational model where data is stored in tables with predefined schemas.
+- **Structured Query Language (SQL)**: SQL is used to query and manage data, providing powerful querying capabilities.
+- **ACID Transactions**: SQL databases support Atomicity, Consistency, Isolation, and Durability, ensuring reliable transactions.
+- **Examples**: MySQL, PostgreSQL, Oracle, and Microsoft SQL Server.
+
+<!-- Slide 3: Introduction to MongoDB (NoSQL) -->
+# MongoDB (NoSQL Database)
+- **Document-Oriented**: MongoDB stores data in JSON-like documents, which allows for flexible, schema-less data storage.
+- **NoSQL Database**: MongoDB is a NoSQL database, meaning it doesn’t rely on a fixed schema, making it ideal for unstructured or semi-structured data.
+- **Scalability**: MongoDB is designed to scale horizontally, handling large volumes of data across distributed systems.
+- **Use Cases**: Suitable for applications with dynamic, hierarchical, or complex data structures.
+
+<!-- Slide 4: SQL vs. MongoDB - Key Comparisons -->
+# SQL vs. MongoDB - Key Comparisons
+- **Data Structure**:
+  - **SQL**: Table-based with fixed schemas.
+  - **MongoDB**: Document-based, allowing dynamic schemas.
+- **Query Language**:
+  - **SQL**: Uses SQL for querying data.
+  - **MongoDB**: Uses MQL (MongoDB Query Language) for flexible, JSON-like queries.
+- **Transactions**:
+  - **SQL**: Supports multi-row transactions with ACID compliance.
+  - **MongoDB**: Supports multi-document transactions but is generally weaker in transaction handling compared to SQL.
+- **Scalability**:
+  - **SQL**: Vertically scalable (increasing resources on a single server).
+  - **MongoDB**: Horizontally scalable (spreading the load across multiple servers).
+
+<!-- Slide 5: Conclusion - When to Use Each -->
+# Conclusion - When to Use Each
+- **SQL**: 
+  - Best for structured data with complex relationships.
+  - Ideal for applications requiring strong consistency and complex transactions.
+- **MongoDB**:
+  - Best for unstructured or semi-structured data.
+  - Ideal for applications that require flexible schemas and horizontal scalability, such as big data and real-time applications.
